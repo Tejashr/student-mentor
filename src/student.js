@@ -8,11 +8,6 @@ export default function Student() {
     
     let userData ={sname,age}
 
-    // let history = useHistory();
-    // function handleClick() {
-    //     history.push("/taketest");
-    //   }
-
     return (
         <>
             <form onSubmit={async (e)=>{
